@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="icon" href="emoji.jpeg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">💍 SoulMate</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="browse.html">Browse</a></li>
+        <li class="nav-item"><a class="nav-link active" href="profile.html">Profile</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Profile Section -->
+<div class="container mt-5">
+  <div class="row">
+
+    <!-- Profile Image -->
+    <div class="col-md-6 text-center">
+      <img id="profileImage" 
+           src="" 
+           class="img-fluid rounded shadow"
+           style="max-height:500px; object-fit:cover;">
+    </div>
+
+    <!-- Profile Details -->
+    <div class="col-md-6">
+      <h2 id="name" class="mb-3"></h2>
+
+      <p><strong>Age:</strong> <span id="age"></span></p>
+      <p><strong>Location:</strong> <span id="location"></span></p>
+      <p><strong>Hobbies:</strong> <span id="hobbies"></span></p>
+
+      <p class="mt-3">
+        Looking for a caring and understanding life partner to build a happy future together.
+      </p>
+
+      <button class="btn btn-primary mt-3">
+        Send Interest ❤️
+      </button>
+    </div>
+
+  </div>
+</div>
+
+<!-- Creative Footer -->
+<footer class="bg-dark text-white mt-5">
+  <div class="container py-4 text-center">
+    <h5>💖 Start Your Love Story Today</h5>
+    <p>Connecting hearts across Sri Lanka and beyond.</p>
+    <hr class="bg-light mt-4">
+    <p class="mb-0">© 2026 SoulMate Matrimony | Designed with ❤️</p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Your Script -->
+<script src="script.js"></script>
+
+</body>
+</html>
